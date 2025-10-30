@@ -22,17 +22,17 @@ let progressCount = 0;
 // EVENT LISTENER
 body.addEventListener("click", (e) => {
   if (
-    e.target.classList.contains("fa-leaf") ||
+    e.target.classList.contains("nav-leaf") ||
     e.target.classList.contains("inicio")
   ) {
     renderHtml(inicioHtml[0].html);
   } else if (
-    e.target.classList.contains("fa-lightbulb") ||
+    e.target.classList.contains("lamp") ||
     e.target.classList.contains("dicas")
   ) {
     main.innerHTML = inicioHtml[1].html;
   } else if (
-    e.target.classList.contains("fa-bullseye") ||
+    e.target.classList.contains("target") ||
     e.target.classList.contains("desafios")
   ) {
     main.innerHTML = inicioHtml[2].html;
@@ -43,12 +43,12 @@ body.addEventListener("click", (e) => {
 
 
   } else if (
-    e.target.classList.contains("fa-location-dot") ||
+    e.target.classList.contains("map") ||
     e.target.classList.contains("mapa")
   ) {
     main.innerHTML = inicioHtml[3].html;
   } else if (
-    e.target.classList.contains("fa-circle-info") ||
+    e.target.classList.contains("about") ||
     e.target.classList.contains("sobre")
   ) {
     main.innerHTML = inicioHtml[4].html;

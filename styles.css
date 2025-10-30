@@ -330,12 +330,18 @@ ul li{
 
 .nav-choice:hover {
     cursor: pointer;
-    color: #075a20;
+    color:  #aa698f;
 }
 
-.fa-solid:hover {
+/* .fa-solid:hover {
     cursor: pointer;
     background-color: #b2d2bb;
+} */
+
+.nav-leaf:hover, .lamp:hover, .target:hover, .map:hover, .about:hover {
+    cursor: pointer;
+    background-color: #1a2c1f;
+
 }
 
 .sobre-ul{
