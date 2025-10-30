@@ -28,7 +28,7 @@ export const inicioHtml = [
             <div class="section3-div">
                 <div>
                     <i class="fa-solid fa-lightbulb"></i>
-                    <h3>Practical Tips</h3>
+                    <h3 class="fp-text">Practical Tips</h3>
                 </div>
                 <p>Discover easy ways to live more sustainably</p>
             </div>
@@ -36,7 +36,7 @@ export const inicioHtml = [
             <div class="section3-div">
                 <div>
                     <i class="fa-solid fa-bullseye"></i>
-                    <h3>Daily Challenges</h3>
+                    <h3 class="fp-text">Daily Challenges</h3>
                 </div>
                 <p>Complete small actions that make a big difference</p>
             </div>
@@ -44,7 +44,7 @@ export const inicioHtml = [
             <div class="section3-div">
                 <div>
                     <i class="fa-solid fa-location-dot"></i>
-                    <h3>Eco Points</h3>
+                    <h3 class="fp-text">Eco Points</h3>
                 </div>
                 <p>Find recycling spots and sustainable markets</p>
             </div>
@@ -451,3 +451,6 @@ export const ecoHints = [
   },
 ];
 
+function updateProgress(count) {
+  return count;
+}

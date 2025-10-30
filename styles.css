@@ -370,6 +370,11 @@ ul li{
     font-weight: 500;
 }
 
+.fp-text {
+    font-weight: 600;
+    color: #075a20;
+}
+
 
 
                     /* MEDIA QUERIES */
