@@ -451,6 +451,3 @@ export const ecoHints = [
   },
 ];
 
-function updateProgress(count) {
-  return count;
-}
