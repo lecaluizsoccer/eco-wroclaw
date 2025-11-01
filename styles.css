@@ -375,6 +375,15 @@ ul li{
     color: #075a20;
 }
 
+.light-green {
+    color: #075a20;
+}
+
+#light-green {
+    color: #075a20;
+    font-weight: 400;
+}
+
 
 
                     /* MEDIA QUERIES */

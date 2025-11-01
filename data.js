@@ -30,7 +30,7 @@ export const inicioHtml = [
                     <i class="fa-solid fa-lightbulb"></i>
                     <h3 class="fp-text">Practical Tips</h3>
                 </div>
-                <p>Discover easy ways to live more sustainably</p>
+                <p class="light-green">Discover easy ways to live more sustainably</p>
             </div>
 
             <div class="section3-div">
@@ -38,7 +38,7 @@ export const inicioHtml = [
                     <i class="fa-solid fa-bullseye"></i>
                     <h3 class="fp-text">Daily Challenges</h3>
                 </div>
-                <p>Complete small actions that make a big difference</p>
+                <p class="light-green">Complete small actions that make a big difference</p>
             </div>
 
             <div class="section3-div">
@@ -46,7 +46,7 @@ export const inicioHtml = [
                     <i class="fa-solid fa-location-dot"></i>
                     <h3 class="fp-text">Eco Points</h3>
                 </div>
-                <p>Find recycling spots and sustainable markets</p>
+                <p class="light-green">Find recycling spots and sustainable markets</p>
             </div>
          </section>
 
@@ -154,7 +154,7 @@ export const inicioHtml = [
 
             <div class="section3-div desafios-section2-div progress-bar">
                 <h3>Your Progress</h3>
-                <p class="test-progress">0 of 6 challenges completed</p>
+                <p class="test-progress" id="light-green">0 of 6 challenges completed</p>
                 <div class="bar">
                     <div class="inner-bar"></div>
                 </div>
